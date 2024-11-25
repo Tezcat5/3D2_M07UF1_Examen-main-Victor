@@ -7,8 +7,8 @@ public class Examen_PlayerController : MonoBehaviour
     private Rigidbody2D characterRigidbody;
     private float horizontalInput;
 
-    [SerializeField] private float characterSpeed = 4.5f;
-    [SerializeField] private float jumpForce = 5f;
+    [SerializeField] private float characterSpeed = 5f;
+    [SerializeField] private float jumpForce = 7f;
 
     private Animator characterAnimator;
 

@@ -8,7 +8,7 @@ public class Examen_GroundSensor : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.layer == 6)
+        if (collider.gameObject.layer == 3)
         {
             isGrounded = true;
         }
@@ -16,7 +16,7 @@ public class Examen_GroundSensor : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.gameObject.layer == 6)
+        if (collider.gameObject.layer == 3)
         {
             isGrounded = true;
         }
@@ -24,7 +24,7 @@ public class Examen_GroundSensor : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.gameObject.layer == 6)
+        if (collider.gameObject.layer == 3)
         {
             isGrounded = false;
         }
